@@ -1,0 +1,31 @@
+Welcome to WebC2!
+
+I see you're trying to set up command and control in client-side JavaScript?
+Maybe some XSS up your sleeve?
+Well you're in luck!
+
+This main command has a few flags you'll need to set to get started!
+
+--help - Show this message
+-p <port> - Set the listener port
+-h/--host <host> - Set the host (localhost, domain name, IP, etc.)
+
+It's pretty simple! Most of the stuff you will need will be after the server is hosted and you have your C2 terminal!
+
+
+Once you enter the terminal, you can view available commands through typing :help.
+
+
+While you might want to stop this program from time to time, when it comes to being the best version of your self, never :q!
+
+Remember to only use this for legal reasons. If used on a website without permission, you will be likely to get in trouble with the authorities. ONLY use this with permission.
+
+Examples of usage include:
+ - Web or external penetration testing
+ - Bug bounty where you have XSS on a page you can't see
+ - Red-teaming
+ - Capture-the-flag competitions or practice boxes (HTB/THM/etc.)
+
+This can help enumerate when you have XSS but can't see where you have it, but only use this responsibly!
+
+Happy hacking!

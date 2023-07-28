@@ -1,0 +1,33 @@
+Welcome to WebC2!
+
+I see you're trying to set up command and control in client-side JavaScript?
+Maybe some XSS up your sleeve?
+Well you're in luck!
+
+Might need a few commands to help you get started!
+
+:sessions - View the connected sessions. These are not necessarily open and may time out if closed (or depending on the command you enter).
+:set_session <session> - Set the session. Use the number, not the string!
+:add_session <session string> - Add a session that is already connected! If you exit out and still have the string, you might be able to recover it!
+:dump - Dump stored data in localStorage, sessionStorage, and cookies!
+:vars - View saved global variables!
+:var <variable> - View saved variable, such as dumped data!
+:session_vars - View saved session variables for this particular session! 
+:session_var <variable> - View saved variable for this session! If you have multiple sessions, this can help keep track of what dumped data is for what session!
+:help - View this help menu!
+:exit/:q - Exit WebC2. This will not close out on the open sessions, but they just won't do anything!
+
+
+While you might want to stop this program from time to time, when it comes to being the best version of your self, never :q!
+
+Remember to only use this for legal reasons. If used on a website without permission, you will be likely to get in trouble with the authorities. ONLY use this with permission.
+
+Examples of usage include:
+ - Web or external penetration testing
+ - Bug bounty where you have XSS on a page you can't see
+ - Red-teaming
+ - Capture-the-flag competitions or practice boxes (HTB/THM/etc.)
+
+This can help enumerate when you have XSS but can't see where you have it, but only use this responsibly!
+
+Happy hacking!
